@@ -9,8 +9,8 @@ export default function Home() {
     <main>
       {/* seo */}
       <SEO
-        title="Valor e Innovación"
-        description="MGN Test Lab."
+        title="Test Lab"
+        description="Laboratorio de pruebas de MGN."
         url="https://wwww.mgn.social"
         image="/og/mgn_2.jpeg"
         alt="MGN: Logo oficial."

@@ -6,7 +6,7 @@ const SEO = ({ title, description, url, image, alt }) => {
       <meta charSet="utf-8" />
 
       {/* main */}
-      <title>MGN Test Lab</title>
+      <title>{`MGN | ${title}`}</title>
       <meta name="description" content={description} />
       <meta name="author" content="MGN" />
 
