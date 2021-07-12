@@ -1,8 +1,4 @@
-import Image from 'next/image'
-
 import SEO from '../components/SEO'
-
-import Techy from '../../public/techy/techy.png'
 
 export default function Home() {
   return (
@@ -21,16 +17,11 @@ export default function Home() {
         <div className="bg-gradient-3 bg-cover">
           <div className="flex flex-col-reverse lg:flex-row mx-auto space-y-6 py-6 md:mb-0 items-center">
             <div className="w-full">
-              <Image
-                src={Techy}
+              <img
+                src="/techy/techy.png"
                 alt="MGN: Techy."
-                objectFit="cover"
-                objectPosition="center"
-                width={1080}
-                height={1080}
-                loading="eager"
-                priority="true"
-                placeholder="blur"
+                width="1080"
+                height="1080"
               />
             </div>
             <div className="flex flex-col w-full p-6">
