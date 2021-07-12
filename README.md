@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+Título: 'MGN Website'
+Fecha: '2021-07-12'
+---
 
-## Getting Started
+# mgn.tech 🔗
 
-First, run the development server:
+El presente código pertence y representa el sitio web oficial de MGN | MARTINEZGROUP NET S.A.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+El proyecto consta de un único móudlo estático, utilizando como motor principal Next.js como _framework_ de _front end_.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El enlace canónico es: https://www.mgn.tech. O en su defecto www.mgn.tech.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Autoría ©
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Absolutamente todo contenido en este proyecto pertence en su totalidad MGN.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+© 2021 MGN | MARTINEZGROUP NET S.A. Todos los derechos reservados.
 
-## Learn More
+## Herramientas 🧰
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js: v11.0.1
+- Tailwind CSS: v2.2.4
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Despligeue 📦
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+El código de este proyecto está en un repositorio pirvado en GitHub y el sitio está desplegado en AWS Amplify.
 
-## Deploy on Vercel
+## Versiones 🔢
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Última versión estable: 1.0.3
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Revisar `HISTORY.md` para el historial completo.
+
+## Desarrolladores 👨🏻‍💻
+
+- **Gustavo Fallas** - _Desarrolladores_ - [Git Personal](https://github.com/g-fallasc)
+- **Randy Martínez** - _Desarrolladores_ - [Git Personal](https://github.com/randyma01)
+
+## Contacto 📩
+
+- Departamento de Desarrollo: code@mgn.tech
+- Coordinador de Desarrollo: randy@mgn.tech
