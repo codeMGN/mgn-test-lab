@@ -14,5 +14,4 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-      - 'node_modules/**/*'
-      - '.next/cache/**/*'
+      - .next/cache/**/*
