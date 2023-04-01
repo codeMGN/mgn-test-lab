@@ -223,24 +223,25 @@ export default function Actividades({ activities, news }) {
                           <p className="text-md text-justify">{data.preview}</p>
                         </div>
                         <div className="flex hover:underline mx-auto text-299">
-                          <Link href={`/aprendizaje/${data.slug.current}`}>
-                            <a className="inline-flex space-x-2 items-center">
-                              <span>Ver más</span>
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6 animate-pulse"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                />
-                              </svg>
-                            </a>
+                          <Link
+                            href={`/${data.slug.current}`}
+                            className="inline-flex space-x-2 items-center"
+                          >
+                            <span>Ver más</span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 animate-pulse"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"
+                              />
+                            </svg>
                           </Link>
                         </div>
                       </div>
