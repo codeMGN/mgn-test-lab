@@ -1,17 +1,6 @@
-import SEO from '../components/SEO'
-
 export default function Home() {
   return (
     <main>
-      {/* seo */}
-      <SEO
-        title="Test Lab"
-        description="Laboratorio de pruebas de MGN."
-        url="https://wwww.mgn.social"
-        image="/og/mgn_2.jpeg"
-        alt="MGN: Logo oficial."
-      />
-
       {/* hero */}
       <section>
         <div className="bg-gradient-3 bg-cover">

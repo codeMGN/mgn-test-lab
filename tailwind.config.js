@@ -1,7 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
-  content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
-  theme: { 
+ content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],  theme: { 
     container: {
       center: true,
     },
@@ -29,9 +32,6 @@ module.exports = {
         /* white -> pantone - %: hexa */
         "white-5":"#F0F0F1"
       },
-      fontFamily:{
-        Inter: ['Inter', "sans-serif"]
-      },
       backgroundImage: theme => ({
          'gradient-1': "url('/gradients/gradient_1.png')",
          'gradient-2': "url('/gradients/gradient_2.png')",
@@ -55,3 +55,4 @@ module.exports = {
     require('@tailwindcss/aspect-ratio')
   ],
 }
+
